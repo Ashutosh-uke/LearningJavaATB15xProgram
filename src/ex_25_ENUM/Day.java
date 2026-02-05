@@ -1,5 +1,0 @@
-package ex_25_ENUM;
-
-public class Day {
-    SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY
-}

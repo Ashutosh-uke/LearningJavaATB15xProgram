@@ -5,4 +5,8 @@ public class Lucky {
     void l2(){
         System.out.println("Lucky");
     }
+
+    public void home() {
+
+    }
 }

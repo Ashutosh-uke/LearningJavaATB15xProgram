@@ -1,6 +1,7 @@
 package ex_19_OOPs_Part2.accessModifer.criminal;
 
 
+import ex_19_OOPs_Part2.accessModifer.police.Cop;
 
 public class Theif {
     public static void main(String[] args) {

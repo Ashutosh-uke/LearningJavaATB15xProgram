@@ -4,4 +4,8 @@ public class Pramod {
     void h2(){
         System.out.println("h2 - Pramod");
     }
+
+    public void home() {
+
+    }
 }
