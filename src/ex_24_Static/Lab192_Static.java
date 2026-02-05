@@ -1,4 +1,4 @@
-package ex_21_Static;
+package ex_24_Static;
 
 public class Lab192_Static {
 
@@ -8,19 +8,17 @@ public class Lab192_Static {
 
         System.out.println(s1.age);
         System.out.println(s2.age);
-        System.out.println(Student.course_name);
-        Student.m1();
 
+        System.out.println(s1.course_name);
+        System.out.println(s2.course_name);
 
     }
 
-
 }
 
-
-class Student{
-    int age; // Non Static
-    static String course_name = "ATB"; // Class Loader level
+class Student {
+    int age; //  Non Static or Instance Variable , Attribute,
+    static String course_name = "ATB";
 
     public Student(int age_c){
         this.age = age_c;
@@ -29,11 +27,5 @@ class Student{
     static void m1(){
         System.out.println("I am static Method");
     }
-
-
-
-
-
-
 
 }
