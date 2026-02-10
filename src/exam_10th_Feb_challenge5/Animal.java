@@ -1,4 +1,4 @@
-package exam_10th_Feb_Challenge5;
+package exam_10th_Feb_challenge5;
 
 public class Animal {
     // Method to be overridden
